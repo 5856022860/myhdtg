@@ -16,7 +16,7 @@ Date: 2013-09-02 12:26:08
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `group_cart`
+-- Table structure for `group_cart`   iiiiiiiiiiiiiiiiiii
 -- ----------------------------
 DROP TABLE IF EXISTS `group_cart`;
 CREATE TABLE `group_cart` (

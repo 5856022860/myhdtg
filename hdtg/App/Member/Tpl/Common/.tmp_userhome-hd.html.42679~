@@ -1,0 +1,20 @@
+<load file="./Public/tpl/header.html"/><!-- 载入公共头部文件-->
+<link href="__PUBLIC__/css/userhome.css" type="text/css" rel="stylesheet" >
+<script type="text/javascript" src="__PUBLIC__/js/userhome.js"></script>	
+<div id="main">
+	<div class='left'>
+		<ul class='userhome-nav'>
+			<li class='active'>
+				<a href="{|U('Member/Order/index')}">团购订单</a>
+			</li>
+			<li>
+				<a href="{|U('Member/Index/collect')}">我的收藏</a>
+			</li>
+			<li>
+				<a href="{|U('Member/Account/index')}">美团余额</a>
+			</li>
+			<li>
+				<a href="{|U('Member/Account/setting')}">账户设置</a>
+			</li>
+		</ul>
+		<div id="content">

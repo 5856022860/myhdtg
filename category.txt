@@ -1,0 +1,31 @@
+分类名称   			分类id 			所属父级	
+cname  			cid  			pid
+
+美食				1 				0
+
+休闲娱乐			2 				0
+
+火锅				3				1
+
+烤肉				4 				1
+
+四川火锅			5				3
+
+重庆火锅			6				3
+
+// select * from category where pid=1;
+// select * from category where cid=1;
+// select * from category where pid=3
+
+
+
+
+
+
+
+
+
+
+
+
+
